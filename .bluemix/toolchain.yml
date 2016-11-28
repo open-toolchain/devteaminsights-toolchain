@@ -25,7 +25,8 @@ github-repo:
 
 #DevOps Insights
 insights:
-  service_id: devopsinsights
+#  service_id: devopsinsights
+  service_id: draservicebroker
   include: insights.yml
 
 #Github
