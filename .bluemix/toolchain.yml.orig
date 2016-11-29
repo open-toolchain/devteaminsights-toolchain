@@ -39,15 +39,6 @@ github:
 #    open-source-repo_name: "kafka"
     open-source-repo_URL: "https://github.com/apache/kafka.git"
     
-#UTI - Jira
-ccm:
-  service_id: customtool
-  parameters:
-    type: JIRA
-    lifecyclePhase: "THINK"
-    name: "KAFKA"
-    dashboard_url: "https://issues.apache.org/jira"
-    description: "JIRA Issues for Kafka"
 
 
 # Pipelines
