@@ -13,7 +13,7 @@ github-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{github.parameters.open-source-repo_name}}"
-    repo_url: "{{github.parameters.open-source-repo_url}}"
+    repo_url: "{{github.parameters.open-source-repo_URL}}"
     type: clone
     has_issues: false
   hidden: [form, description]
