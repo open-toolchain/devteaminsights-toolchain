@@ -15,7 +15,8 @@ github-repo:
     repo_name: "{{github.parameters.open-source-repo_name}}"
     repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    type: link
+#    type: link
+    type: clone
     has_issues: true
   hidden: [form, description]
 
@@ -26,7 +27,6 @@ github-repo:
 
 #DevOps Insights
 insights:
-#  service_id: devopsinsights
   service_id: draservicebroker
   include: insights.yml
 
@@ -35,8 +35,8 @@ github:
   schema: github.json
   service-category: githubpublic
   parameters:
-#    open-source-repo_name: "sample-{{name}}"
-    open-source-repo_name: "kafka"
+    open-source-repo_name: "sample-{{name}}"
+#    open-source-repo_name: "kafka"
     open-source-repo_URL: "https://github.com/apache/kafka.git"
     
 
