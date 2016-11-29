@@ -14,8 +14,9 @@ github-repo:
   parameters:
     repo_name: "{{github.parameters.open-source-repo_name}}"
     repo_url: "{{github.parameters.open-source-repo_URL}}"
-    type: clone
-    has_issues: false
+#    type: clone    
+    type: existing
+    has_issues: true
   hidden: [form, description]
 
 #Dra
@@ -34,6 +35,7 @@ github:
   schema: github.json
   service-category: githubpublic
   parameters:
+#    open-source-repo_name: "sample-{{name}}"
     open-source-repo_name: "kafka"
     open-source-repo_URL: "https://github.com/apache/kafka.git"
     
