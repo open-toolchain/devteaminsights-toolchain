@@ -14,8 +14,8 @@ github-repo:
   parameters:
     repo_name: "{{github.parameters.open-source-repo_name}}"
     repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: clone    
-    type: existing
+#    type: new | clone | link | fork
+    type: link
     has_issues: true
   hidden: [form, description]
 
