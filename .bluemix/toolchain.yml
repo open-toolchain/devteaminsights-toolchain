@@ -15,8 +15,9 @@ github-repo:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
+    repo_name: "{{name}}"
+    repo_url: "https://github.com/apache/kafka.git"
     type: link
-   # type: clone
     has_issues: true
 #  hidden: [form, description]
 
