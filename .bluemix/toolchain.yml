@@ -48,6 +48,7 @@ ccm:
     lifecyclePhase: "THINK"
     name: "KAFKA"
     dashboard_url: "https://issues.apache.org/jira"
+    icon_url: "https://pbs.twimg.com/profile_images/515197303913582593/rzFvW-gC.png"
     description: "JIRA Issues for Kafka"
 
 
