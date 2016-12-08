@@ -31,13 +31,13 @@ insights:
   include: insights.yml
 
 #Github
-github:
-  schema: github.json
-  service-category: githubpublic
-  parameters:
+#github:
+#schema: github.json
+#  service-category: githubpublic
+#  parameters:
 #    open-source-repo_name: "sample-{{name}}"
 #    open-source-repo_name: "kafka"
-    open-source-repo_URL: "https://github.com/apache/kafka.git"
+#    open-source-repo_URL: "https://github.com/apache/kafka.git"
     
 #UTI - Jira
 ccm:
