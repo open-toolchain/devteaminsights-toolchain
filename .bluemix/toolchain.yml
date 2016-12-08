@@ -12,8 +12,8 @@ required:
 github-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "{{github.parameters.open-source-repo_name}}"
-    repo_url: "{{github.parameters.open-source-repo_URL}}"
+#    repo_name: "{{github.parameters.open-source-repo_name}}"
+#    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
     type: link
    # type: clone
@@ -35,7 +35,7 @@ github:
   schema: github.json
   service-category: githubpublic
   parameters:
-    open-source-repo_name: "sample-{{name}}"
+#    open-source-repo_name: "sample-{{name}}"
 #    open-source-repo_name: "kafka"
     open-source-repo_URL: "https://github.com/apache/kafka.git"
     
