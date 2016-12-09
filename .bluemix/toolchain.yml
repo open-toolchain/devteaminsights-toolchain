@@ -24,7 +24,7 @@ github-repo-mesos:
     repo_url: "https://github.com/apache/mesos.git"
     type: link
     has_issues: true
-#  hidden: [form, description]
+  hidden: [form, description]
 
 #Dra
 #dra:
