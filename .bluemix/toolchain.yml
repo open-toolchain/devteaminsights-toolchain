@@ -8,9 +8,9 @@ required:
  - insights
 
 #DevOps Insights
-#insights:
-#  service_id: draservicebroker
-#  include: insights.yml
+insights:
+  service_id: draservicebroker
+  include: insights.yml
 
 
 # Github repos
