@@ -42,7 +42,7 @@ required:
     
 
 ## Jira
-jira:
+jira-repo:
 #schema: jira.json
   service-id: jira
   parameters:
