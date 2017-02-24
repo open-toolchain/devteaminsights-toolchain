@@ -43,6 +43,7 @@ required:
 
 ## Jira
 jira:
+schema: jira.json
   service_id: jira
   parameters:
     type: existing
