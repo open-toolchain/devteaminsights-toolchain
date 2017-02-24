@@ -43,6 +43,7 @@ required:
 
 ## Jira
 jira-repo:
+include: json.yml
 #schema: jira.json
   service_id: jira
   parameters:
