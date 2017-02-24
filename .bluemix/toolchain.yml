@@ -42,7 +42,7 @@ required:
     
 
 ## Jira
-Jira-repo:
+jira-repo:
 service_id: jira
   parameters:
     type: existing
