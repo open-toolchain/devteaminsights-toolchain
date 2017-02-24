@@ -1,0 +1,101 @@
+{
+	"id": "78416d60-f70e-4a40-9fbc-c21b7b0d87efjira",
+	"url": "/toolint-broker/api",
+	"brokerName": "jira",
+	"type": "service_broker",
+	"services": [{
+		"uuid": "845b6360-37bf-44e9-b0b3-ba282ef2d582service27",
+		"created_at": "2016-02-23T17:00:07.638Z",
+		"updated_at": "2016-02-23T17:00:07.638Z",
+		"description": "Manage projects and track issues.",
+		"tags": ["third-party", "think", "experimental", "private"],
+		"entity": {
+			"unique_id": "jira"
+		},
+		"metadata": {
+			"displayName": "JIRA",
+			"imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAACL5pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICAgICAgICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNS0wMy0yNFQxMTo0NDoyNC0wNTowMDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6Q3JlYXRlRGF0ZT4yMDE1LTAzLTEzVDEyOjIxOjEzLTA1OjAwPC94bXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhtcDpNZXRhZGF0YURhdGU+MjAxNS0wMy0yNFQxMTo0NDoyNC0wNTowMDwveG1wOk1ldGFkYXRhRGF0ZT4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKTwveG1wOkNyZWF0b3JUb29sPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+NjQ8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+NjQ8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpFeGlmVmVyc2lvbj4wMjIxPC9leGlmOkV4aWZWZXJzaW9uPgogICAgICAgICA8ZXhpZjpDb2xvclNwYWNlPjE8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9qcGVnPC9kYzpmb3JtYXQ+CiAgICAgICAgIDx4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+OTMwN0MzQjhCRDYxMDBGQTVBRTEyQUUxN0M5MDNCNEE8L3htcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOkhpc3Rvcnk+CiAgICAgICAgICAgIDxyZGY6U2VxPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpjaGFuZ2VkPi88L3N0RXZ0OmNoYW5nZWQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTUtMDMtMjRUMTE6NDQ6MjQtMDU6MDA8L3N0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",
+			"longDescription": "Get the most out of agile development by using JIRA to manage your project.",
+			"providerDisplayName": "Atlassian",
+			"documentationUrl": "https://confluence.atlassian.com/jira/jira-documentation-1556.html",
+			"supportUrl": "https://support.atlassian.com/customer/servicedesk-portal",
+			"parameters": {
+				"$schema": "http://json-schema.org/draft-04/schema#",
+				"properties": {
+					"type": {
+						"title": "JIRA type",
+						"type": "string",
+						"enum": [
+							"new",
+							"existing"
+						]
+					},
+					"project_key": {
+						"title": "JIRA project key",
+						"type": "string"
+					},
+					"project_name": {
+						"title": "JIRA project name",
+						"type": "string"
+					},
+					"project_admin": {
+						"title": "JIRA project lead's user name",
+						"type": "string"
+					},
+					"api_url": {
+						"title": "JIRA base API URL",
+						"description": "Type the base API URL for your JIRA instance. To find that value, from the header of your JIRA instance, click the **Administration** icon, which looks like a gear, and then click **System**.",
+						"type": "string"
+					},
+					"username": {
+						"title": "JIRA administrator's user name",
+						"type": "string"
+					},
+					"password": {
+						"title": "JIRA administrator's password",
+						"type": "password"
+					}
+				},
+				"form": [{
+					"type": "validator",
+					"url": "/devops/setup/jira-helper/jira_exists_helper.html"
+				}, {
+					"type": "selectfieldset",
+					"key": "type",
+					"titleMap": {
+						"new": "New",
+						"existing": "Existing"
+					},
+					"items": [
+						{
+							"type": "section",
+							"description": "Create a JIRA project.",
+							"items": [
+								"project_key",
+								"project_name",
+								"api_url",
+								"project_admin",
+								"username",
+								"password"
+							]
+						}, {
+							"type": "section",
+							"description": "Connect to a JIRA project.",
+							"items": [
+								"project_key",
+								"api_url",
+								"username",
+								"password"
+							]
+						}
+					]
+				}],
+				"required": ["type", "project_key", "api_url"]
+			}
+		},
+		"default_locale": "en",
+		"locales": {
+			"$ref": "./locales.json#/jira"
+		}
+	}]
+}

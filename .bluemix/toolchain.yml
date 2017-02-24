@@ -44,7 +44,7 @@ required:
 ## Jira
 jira:
 schema: jira.json
-  service_id: jira
+  service-category: jira
   parameters:
     type: existing
     project_key: "KAFKA"
