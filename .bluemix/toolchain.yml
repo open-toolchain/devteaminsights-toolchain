@@ -80,13 +80,12 @@ required:
 #     has_lifecycle: true
 #     api_url: "https://issues.apache.org/jira"
 
-#Jira
-#jira:
-#   service_id: jira 
-#   parameters:
-#     type: existing
-#     project_key: "KAFKA"
-#     api_url: "https://issues.apache.org/jira"
+jira:
+  service_id: jira
+  parameters:
+    type: existing
+    project_key: "KAFKA"
+    api_url: "https://issues.apache.org/jira"
 
 #UTI - GitLab
 ccm:
