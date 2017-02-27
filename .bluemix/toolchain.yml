@@ -42,8 +42,8 @@ required:
     
 
 ## Jira
-jirao:
-include: json.yml
+jira:
+include: jira.yml
 #schema: jira.json
   service_id: jira
   parameters:
