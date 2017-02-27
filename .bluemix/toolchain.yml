@@ -51,7 +51,7 @@ required:
 #    api_url: "https://issues.apache.org/jira"
 
 #Jira
-jira:
+jira1:
    service_id: jira 
    parameters:
      type: "existing"
