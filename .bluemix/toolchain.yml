@@ -70,7 +70,7 @@ jira:
 schema: jira.json
    service_broker: jira 
    parameters:
-     type: "existing"
+     type: existing
      project_key: "KAFKA"
      label: "KAFKA"
      project_name: ""
