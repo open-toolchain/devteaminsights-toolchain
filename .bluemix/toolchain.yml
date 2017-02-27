@@ -56,6 +56,12 @@ jira1:
    parameters:
      type: "existing"
      project_key: "KAFKA"
+     label: "KAFKA"
+     project_name: ""
+     project_admin: ""
+     dashboard_url: ""
+     username: ""
+     has_lifecycle: true
      api_url: "https://issues.apache.org/jira"
 
 #UTI - GitLab
