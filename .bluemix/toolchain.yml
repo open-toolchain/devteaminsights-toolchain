@@ -42,7 +42,7 @@ required:
     
 
 ## Jira
-jira-repo:
+jirao:
 include: json.yml
 #schema: jira.json
   service_id: jira
