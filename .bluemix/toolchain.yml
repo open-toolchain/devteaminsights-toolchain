@@ -67,7 +67,7 @@ required:
 
 #Jira
 jira:
-schema: github.json
+schema: jira.json
    service_id: jira 
    parameters:
      type: "existing"
