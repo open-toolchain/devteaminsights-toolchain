@@ -17,7 +17,7 @@ insights:
 github-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "{{name}}"
+    repo_name: ""
     repo_url: ""
     type: new | clone | link | fork
     has_issues: true
@@ -32,7 +32,7 @@ jenkins:
     dashboard_url: ""
 
 #Slack
-#messaging:
-#  service_id: slack
+messaging:
+  service_id: slack
 #  include: slack.yml
 
