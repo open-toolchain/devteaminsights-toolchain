@@ -1,6 +1,6 @@
 ---
-name: "DevOps Insights template with Github, Jenkins and Slack"
-description: "With this toolchain, you can deploy a DevOps insights toolchain containing Github,Slack and Jenkins. You can quickly get Developer / Team and Deployment Risk Insights by using this template to start your analysis. \n\nTo get started, click **Create**."
+name: "Developer and Team Insights template with Github, Jira and Slack"
+description: "With this toolchain, you can deploy a DevOps insights toolchain containing Github,Slack and Jira. You can quickly get Developer / Team Insights by using this template to start your analysis. \n\nTo get started, click **Create**."
 version: 0.1
 #image: data:image/png;base64,$file(simple-toolchain-white.png,base64)
 required: 
@@ -19,17 +19,26 @@ github-repo:
   parameters:
     repo_name: ""
     repo_url: ""
-    type: new | clone | link | fork
+    type: link
     has_issues: true
 #  hidden: [form, description]
 
+#Jira
+jira:
+  service_id: jira
+  parameters:
+    type: existing
+    project_key: ""
+    api_url: ""
 
 #Jenkins
-jenkins:
-  service_id: jenkins
-  parameters:
-    name: ""
-    dashboard_url: ""
+#jenkins:
+#  service_id: jenkins
+#  parameters:
+#    name: ""
+#    dashboard_url: ""
+
+
 
 #Slack
 messaging:
