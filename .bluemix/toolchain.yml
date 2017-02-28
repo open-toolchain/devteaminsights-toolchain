@@ -24,13 +24,14 @@ github-repo:
 #  hidden: [form, description]
 
 
+#Jenkins
 jenkins:
   service_id: jenkins
   parameters:
     name: ""
     dashboard_url: ""
 
-Slack
+#Slack
 messaging:
   service_id: slack
   include: slack.yml
