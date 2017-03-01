@@ -1,45 +1,40 @@
----
-name: "Developer and Team Insights template with Github, Jira and Slack"
-description: "With this toolchain, you can deploy a DevOps insights toolchain containing Github,Slack and Jira. You can quickly get Developer / Team Insights by using this template to start your analysis. \n\nTo get started, click **Create**."
-version: 0.1
-#image: data:image/png;base64,$file(simple-toolchain-white.png,base64)
-required: 
- - github-repo
- - insights
-
-#DevOps Insights
-insights:
-  service_id: draservicebroker
-  include: insights.yml
+version: '2'
+template:
+  name: 'Developer and Team Insights template with Github, Jira and Slack'
+  description: >-
+    With this toolchain, you can deploy a DevOps insights toolchain containing
+    Github,Slack and Jira. You can quickly get Developer / Team Insights by
+    using this template to start your analysis. 
 
 
-# Github repos
-github-repo:
-  service_id: githubpublic
-  parameters:
-    repo_name: ""
-    repo_url: ""
-    type: link
-    has_issues: true
-#  hidden: [form, description]
-
-#Jira
-jira:
-  service_id: jira
-  parameters:
-    type: existing
-    project_key: ""
-    api_url: ""
-
-#Jenkins
-#jenkins:
-#  service_id: jenkins
-#  parameters:
-#    name: ""
-#    dashboard_url: ""
-
-
-
-#Slack
-messaging:
-  service_id: slack
+    To get started, click **Create**.
+  required:
+    - github-repo
+    - insights
+  info:
+    git url: >-
+      [https://github.com/open-toolchain/devteaminsights-toolchain.git](https://github.com/open-toolchain/devteaminsights-toolchain.git)
+    git branch: >-
+      [master](https://github.com/open-toolchain/devteaminsights-toolchain/tree/master)
+toolchain:
+  name: 'devteaminsights-toolchain-{{timestamp}}'
+services:
+  insights:
+    service_id: draservicebroker
+    $ref: insights.yml
+  github-repo:
+    service_id: githubpublic
+    parameters:
+      repo_name: ''
+      repo_url: ''
+      type: link
+      has_issues: true
+  jira:
+    service_id: jira
+    parameters:
+      type: existing
+      project_key: ''
+      api_url: ''
+  messaging:
+    service_id: slack
+form: {}
