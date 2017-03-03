@@ -1,6 +1,6 @@
 version: '2'
 template:
-  name: 'Developer and Team Insights template with Github, Jira and Slack'
+  name: 'Developer Insights and Team Dynamics with GitHub and JIRA'
   description: |-
     With this template, you can create a toolchain to explore your project’s development risk and employ social coding analysis to understand interaction patterns between developers.  You can analyze GitHub source code in conjunction with GitHub issues, JIRA issues, or both.
 
