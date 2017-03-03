@@ -22,7 +22,7 @@ template:
 toolchain:
   name: 'devteaminsights-toolchain-{{timestamp}}'
   template:
-    getting_started:
+    getting_started: |-
       **Your toolchain is ready!**
       
       **Quick start:** View the dashboards in DevOps Insights to see your results.
