@@ -287,8 +287,8 @@
 <text id="gitHub2" transform="matrix(0.9271 0 0 1 -142.0966 694.4941)" class="st15 st16">GitHub</text>
 <text id="bluemix" transform="matrix(0.9271 0 0 1 36.293 681.2939)" class="st15 st16">SLACK</text>
 <text id="webIde" transform="matrix(0.9271 0 0 1 -138.2354 794.5)" class="st15 st16">JIRA</text>
-<text id="devops" transform="matrix(1 0 0 1 -60.6 680.45)" class="st15 st16">DEVOPS</text>
-<text id="insights" transform="matrix(1 0 0 1 -63.6 692.45)" class="st15 st16">INSIGHTS</text>
+<text id="devops" transform="matrix(1 0 0 1 -60.6 681.2939)" class="st15 st16">DEVOPS</text>
+<text id="insights" transform="matrix(1 0 0 1 -63.6 694.4941)" class="st15 st16">INSIGHTS</text>
 <g>
 	<g>
 		<path class="st17" d="M-127.4,746.8h-1.9c-0.2,0-0.3,0.1-0.3,0.3v11.3c0,0.2,0.1,0.3,0.3,0.3h1.9c0.2,0,0.3-0.1,0.3-0.3v-11.3
