@@ -11,7 +11,6 @@ template:
     If a notification tool like Slack is configured in your toolchain, data mining and analysis completion notifications will be forwarded to the notification tool. 
 
     To get started, click **Create**.
-  header: '![](toolchain.svg?localize "header image")'
   required:
     - github-repo
     - insights
