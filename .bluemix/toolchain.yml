@@ -12,6 +12,7 @@ template:
 
     To get started, click **Create**.
   header: '![](toolchain.svg?localize "header image")'
+  icon: icon.svg
   required:
     - github-repo
     - insights
