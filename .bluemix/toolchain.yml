@@ -29,7 +29,7 @@ toolchain:
       
       **Quick start:** View the dashboards in DevOps Insights to see your results.
       
-      For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/category/tools) for this toolchain.    
+      For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_dev_insights_team_dynamics) for this toolchain.    
 services:
   insights:
     service_id: draservicebroker
