@@ -280,18 +280,18 @@
 	<line id="svg_232" class="st0" x1="-367.6" y1="1163.3" x2="-367.7" y2="1163.3"/>
 	<line id="svg_233" class="st0" x1="-365.6" y1="1163" x2="-365.6" y2="1163"/>
 </g>
-<text id="issueTracker" transform="matrix(0.9407 0 0 1 -504.8862 1192.459)" class="st15 st16">ISSUE TRACKER</text>
-<text id="gitHub1" transform="matrix(0.9407 0 0 1 -482.9009 1206.0088)" class="st15 st16">GitHub</text>
-<text id="think" transform="matrix(1.0146 0 0 1 -507.3301 1085.1934)" class="st15 st16">THINK</text>
-<text id="code" transform="matrix(1.0146 0 0 1 -413.8828 1085.1934)" class="st15 st16">CODE</text>
-<text id="deliver" transform="matrix(1.0146 0 0 1 -319.353 1085.1934)" class="st15 st16">LEARN</text>
-<text id="run" transform="matrix(1.0146 0 0 1 -236.3208 1085.1934)" class="st15 st16">CULTURE</text>
-<text id="repository" transform="matrix(0.9407 0 0 1 -402.1787 1192.459)" class="st15 st16">REPOSITORY</text>
-<text id="gitHub2" transform="matrix(0.9407 0 0 1 -386.2456 1206.0088)" class="st15 st16">GitHub</text>
-<text id="bluemix" transform="matrix(0.9407 0 0 1 -200.4551 1192.459)" class="st15 st16">SLACK</text>
-<text id="webIde" transform="matrix(0.9407 0 0 1 -477.3164 1325.9)" class="st15 st16">JIRA</text>
-<text id="devops" transform="matrix(1.0146 0 0 1 -301.3687 1192.459)" class="st15 st16">DEVOPS</text>
-<text id="insights" transform="matrix(1.0146 0 0 1 -304.4927 1206.0088)" class="st15 st16">INSIGHTS</text>
+<text id="headerSVG.issueTracker1" transform="matrix(0.9407 0 0 1 -504.8862 1192.459)" class="st15 st16">ISSUE TRACKER</text>
+<text id="headerSVG.gitHub1" transform="matrix(0.9407 0 0 1 -482.9009 1206.0088)" class="st15 st16">GitHub</text>
+<text id="headerSVG.think" transform="matrix(1.0146 0 0 1 -507.3301 1085.1934)" class="st15 st16">THINK</text>
+<text id="headerSVG.code" transform="matrix(1.0146 0 0 1 -413.8828 1085.1934)" class="st15 st16">CODE</text>
+<text id="headerSVG.deliver" transform="matrix(1.0146 0 0 1 -319.353 1085.1934)" class="st15 st16">LEARN</text>
+<text id="headerSVG.run" transform="matrix(1.0146 0 0 1 -236.3208 1085.1934)" class="st15 st16">CULTURE</text>
+<text id="headerSVG.repository" transform="matrix(0.9407 0 0 1 -402.1787 1192.459)" class="st15 st16">REPOSITORY</text>
+<text id="headerSVG.gitHub2" transform="matrix(0.9407 0 0 1 -386.2456 1206.0088)" class="st15 st16">GitHub</text>
+<text id="headerSVG.bluemix" transform="matrix(0.9407 0 0 1 -200.4551 1192.459)" class="st15 st16">SLACK</text>
+<text id="headerSVG.webIde" transform="matrix(0.9407 0 0 1 -477.3164 1325.9)" class="st15 st16">JIRA</text>
+<text id="headerSVG.devops" transform="matrix(1.0146 0 0 1 -301.3687 1192.459)" class="st15 st16">DEVOPS</text>
+<text id="headerSVG.insights" transform="matrix(1.0146 0 0 1 -304.4927 1206.0088)" class="st15 st16">INSIGHTS</text>
 <g>
 	<g>
 		<path class="st17" d="M-462.6,1264.8h-2c-0.2,0-0.3,0.1-0.3,0.3v11.6c0,0.2,0.1,0.3,0.3,0.3h2c0.2,0,0.3-0.1,0.3-0.3v-11.6
@@ -393,7 +393,7 @@
 <path id="svg_112" class="st34" d="M-279.5,1131.4v13.8c3.9,0,7-3.1,7-6.9C-272.6,1134.5-275.6,1131.4-279.5,1131.4z"/>
 <path id="svg_113" class="st35" d="M-274.2,1142.7c1.4-1.6,1.9-3.7,1.6-5.6l-6.9,1.2l-4.5,5.2
 	C-281.1,1146-276.7,1145.6-274.2,1142.7z"/>
-<text id="issueTracker_1_" transform="matrix(0.9407 0 0 1 -503.8447 1313.6895)" class="st15 st16">ISSUE TRACKER</text>
+<text id="headerSVG.issueTracker2" transform="matrix(0.9407 0 0 1 -503.8447 1313.6895)" class="st15 st16">ISSUE TRACKER</text>
 <g id="svg_10_1_">
 	<g id="svg_11_1_">
 		<path id="svg_12_3_" class="st4" d="M-372,1238.2"/>
