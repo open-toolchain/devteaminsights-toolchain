@@ -33,7 +33,10 @@ toolchain:
 services:
   insights:
     service_id: draservicebroker
-    $ref: insights.yml
+    #$ref: insights.yml
+    parameters:
+      type: 'advanced'
+      is_developer_insights_enabled: true
   github-repo:
     service_id: githubpublic
     parameters:
