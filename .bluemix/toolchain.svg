@@ -280,7 +280,7 @@
 	<line id="svg_232" class="st0" x1="-367.6" y1="1163.3" x2="-367.7" y2="1163.3"/>
 	<line id="svg_233" class="st0" x1="-365.6" y1="1163" x2="-365.6" y2="1163"/>
 </g>
-<text id="headerSVG.issueTracker1" transform="matrix(0.9407 0 0 1 -504.8862 1192.459)" textLength="90" lengthAdjust="spacingAndGlyphs" class="st15 st16">ISSUE TRACKER</text>
+<text id="headerSVG.issueTracker1" transform="matrix(0.9407 0 0 1 -504.8862 1192.459)" class="st15 st16">ISSUE TRACKER</text>
 <text id="headerSVG.gitHub1" transform="matrix(0.9407 0 0 1 -482.9009 1206.0088)" class="st15 st16">GitHub</text>
 <text id="headerSVG.think" transform="matrix(1.0146 0 0 1 -507.3301 1085.1934)" class="st15 st16">THINK</text>
 <text id="headerSVG.code" transform="matrix(1.0146 0 0 1 -413.8828 1085.1934)" class="st15 st16">CODE</text>
